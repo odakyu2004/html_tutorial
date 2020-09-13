@@ -1,0 +1,133 @@
+@charset "UTF-8";
+li*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* 余白を消去する*/
+@media screen and (min-width:481px){
+body{
+    margin: 0;
+}
+h1,h2{
+    margin: 0;
+    /*pxはどの端末でも同じ大きさになるので、スマホと両対応させるならvxでやる。こっちは比率が変わらない*/
+    font-size: 3vw;
+    /*　４つ文字を指定すると　上右下左　２つ指定すると上下と左右　１つだと全方位一緒*/
+    padding: 0.5vw 0 0 1.5vw;
+}
+header{
+    margin: 0;
+   /*全部使いたいときは幅をパーセントにする*/
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    height: 4vw;
+}
+ul{
+    margin: 0;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
+#contents{
+
+    background-color: rgb(221, 221, 221);
+}
+.profile_list{
+    color: black;
+}
+
+#interest{
+    background-color: rgb(190, 190, 190);
+}
+
+footer{
+    background-color: aquamarine;
+    color: black;
+}
+
+#Rights{
+    margin:0;
+}
+
+.pic{
+    height: 15vw;
+    margin: 5vw;
+}
+
+.f-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+}
+
+@media screen and (max-width:480px){
+body{
+    margin: 0;
+}
+h1,h2{
+    margin: 0;
+    /*pxはどの端末でも同じ大きさになるので、スマホと両対応させるならvxでやる。こっちは比率が変わらない*/
+    font-size: 3vw;
+    /*　４つ文字を指定すると　上右下左　２つ指定すると上下と左右　１つだと全方位一緒*/
+    padding: 0.5vw 0 0 1.5vw;
+}
+header{
+    margin: 0;
+   /*全部使いたいときは幅をパーセントにする*/
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    height: 4vw;
+}
+ul{
+    margin: 0;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
+#contents{
+
+    background-color: rgb(221, 221, 221);
+}
+.profile_list{
+    color: black;
+}
+
+#interest{
+    background-color: rgb(190, 190, 190);
+}
+
+footer{
+    background-color: aquamarine;
+    color: black;
+}
+
+#Rights{
+    margin:0;
+}
+
+.f-container{
+    display:block;
+    text-align:center;
+}
+
+header{
+    margin: 0;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    height: 15vw;
+}
+
+h1,h2{
+    margin: 0;
+    font-size: 10vw;
+    padding: 0.5vw 0 0 1.5vw;
+}
+
+.pic{
+        height: 30vw;
+        margin: 5vw;
+}
+}
